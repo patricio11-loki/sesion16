@@ -47,6 +47,12 @@ nav ul {
     border-radius: 6px;
 }
 
+img{
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 8px;
+}
 button{
     width: 100%;
     padding: 10px;
