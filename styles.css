@@ -24,4 +24,13 @@ nav ul {
     font-weight: bold;
  }
 
+ .formulario label{
+    width: 100;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+
  
