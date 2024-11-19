@@ -1,73 +1,70 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     margin: 0;
     padding: 0;
 }
+
 header {
-    background-color:chartreuse;
+    background-color: #69a7e2;
     color: white;
-    padding: 10 px 0;
+    padding: 10px 0;
     text-align: center;
 }
+
 nav ul {
     list-style-type: none;
     padding: 0;
 }
- nav  ul li {
-    display: inline;
-    padding: 0;
- }
- nav ul li a{
-    text-decoration: none;
-    color:  white;
-    font-weight: bold;
- }
 
- .formulario{
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.formulario {
     width: 320px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
     border: 1px solid #69a7e2;
     border-radius: 12px;
-    box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
     background-color: #a6b4c1;
-    }
+}
 
-.formulario label{
+.formulario label {
     display: block;
     margin-top: 10px;
 }
 
- .formulario input {
-    width: 100;
-    padding: 10px;
+.formulario input {
+    width: 100%;
+    padding: 8px;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 6px;
 }
 
-img{
-    display: block;
-    margin-top: 10px;
-    max-width: 100%;
-    border-radius: 8px;
-}
-button{
+button {
     width: 100%;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     border: none;
-    background-color: blueviolet;
+    background-color: #69a7e2;
     color: white;
     font-size: 16px;
     border-radius: 6px;
     cursor: pointer;
 }
+
 button:hover {
     background-color: #5a95cf;
 }
-
-
 
  
