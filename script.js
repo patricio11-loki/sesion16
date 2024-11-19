@@ -3,7 +3,7 @@ document.getElementById('registroForm').addEventListener('submit', function(even
     const correo = document.getElementById('correo').value.trim();
     const imagen = document.getElementById('imagen').value;
 
-    if (nombre=="" || correo=="" || imagen=="") {
+    if (!nombre=="" || correo=="" || imagen=="") {
         alert("Por favor, completa todos los campos obligatorios.");
         return false;
    }
